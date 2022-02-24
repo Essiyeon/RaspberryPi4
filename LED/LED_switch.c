@@ -1,5 +1,5 @@
-##ex6) pin 8¹øÀÇ LED°¡ blinkµÇ´Ù°¡
-##¹öÆ°À» ´©¸£¸é pin 10¹øÀÇ LED°¡ blink
+##ex6) pin 8ë²ˆì˜ LEDê°€ blinkë˜ë‹¤ê°€
+##ë²„íŠ¼ì„ ëˆ„ë¥´ë©´ pin 10ë²ˆì˜ LEDê°€ blink
 
 import RPi.GPIO as GPIO
 from time import sleep
