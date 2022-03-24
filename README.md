@@ -23,9 +23,12 @@ ___
   
 **0.1.3**  
 - Heatsink 를 다음과 같은 위치에 붙여준다.  
+
+ ![1](https://user-images.githubusercontent.com/100012844/159917856-ea2891e1-0308-493a-8cb8-45aeeae9e47c.png)
+
 - 0.1.2의 microSD를 raspberry pi 에 삽입한다.
 - 사용하려는 모니터, 키보드, 마우스 등 입출력장치를 연결한다.  
-위와 같은 입출력장치 없이 원격제어를 사용할 수 있으나 딜레이가 심하게 발생할 수 있다.
+위와 같은 입출력장치 없이 원격제어를 사용할 수 있으나 딜레이가 심하게 발생할 수 있다.  
 이런 경우 모니터만 연결해도 딜레이를 줄일 수 있다.  
 [Raspbreey Pi 4를 VNC로 접속하여 원격 제어하는 방법](https://webnautes.tistory.com/549?category=759152)  
 
