@@ -6,7 +6,9 @@
 [No module named setuptools](https://stackoverflow.com/questions/22531360/no-module-named-setuptools)  
 [[Raspberry] Depends: vlc-plugin-qt 의존성 오류](https://makeutil.tistory.com/119)  
 [아두이노로 온도, 습도 측정하기(DHT 11사용)](https://blog.naver.com/emperonics/222085701581)  
-  
+~~라즈베리파이4에서 DHT11이 정상적으로 동작하지않는다는 글도많고 실제로 오류가있습니다.~~
+
+    
 **LM35**  
 [라즈베리파이(RaspberryPi)에서 온도센서(LM35)를 이용한 실내 온도 측정_아날로그 신호 입력 (파이썬 프로그램 공유)](https://www.youtube.com/watch?v=jiwEmByzMwo)
 [아두이노 LM35 아날로그 온도 센서 Analog Sensor](https://www.eduino.kr/product/detail.html?product_no=600)  
