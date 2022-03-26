@@ -4,6 +4,8 @@ Using raspberry pi 4, practice various module
 **object** : 라즈베리파이를 이용한 다양한 모듈 실습  
 **model**  : raspberry pi 4 model B, 8GB RAM
 
+~~실습할 때 참고했던 블로그들 출처 남겨놓습니다. 문제시 말씀해주세요.~~  
+
 ___
 ### 0. 라즈베리파이 시작하기  
 **0.1 raspbian os 용 메모리카드 만들기**
@@ -36,10 +38,54 @@ ___
 - 다음의 블로그를 참고하여 raspbian OS 사용을 위한 설정을 완료한다.  
 [Raspberry Pi 4 처음 사용하기](https://webnautes.tistory.com/899?category=759152)  
 
-```Linux
+```
 sudo raspi-config
 ```
 System Options - Password,  Location Options - Timezone,  Interface Options etc.
+
+### 1. Python 및 C language 개발 환경 만들기
+  
+**1.1** 개발환경 최신화 시키기  
+- raspberry pi [terminal] click  
+```Linux
+sudo apt update
+sudo apt upgrade
+```
+
+**1.2** Python IDE 개발환경 만들기
+  
+[[3회차-4] 라즈베리파이 GPIO 실습-1](https://aisw.tistory.com/21)  
+
+```
+sudo apt install python-rpi.gpio python3-rpi.gpio
+```
+
+**1.3** C언어 개발환경 만들기
+[라즈베리파이 GPIO 사용하기 - git gitcore(wiringPi 다운에러)](https://infinitt.tistory.com/20)  
+
+**1.3.1** C 언어 사용을 위한 wiringPi library install
+
+```
+sudo apt install git-core
+git clone https:// github.com/WringPi/WringPi
+cd WringPi
+./ build
+```
+
+**1.3.2** 설치확인
+
+```
+gpio -v
+gpio readall
+```
+
+**1.3.3** 예제파일 다운로드 및 실행
+
+```
+git clone http://github.com/eleparts/raspi-LearningKit
+cd raspi-LearningKit/
+ls -l
+```
 
 ## C language example code
 [eleparts-raspiLearningKit](https://github.com/eleparts/raspi-LearningKit)  
@@ -50,3 +96,9 @@ C언어 예제는 위 링크의 예제 코드를 이용하여 공부하고
 ## Python language example code
   
 파이썬으로 작성된 코드의 참조된 출처는 각 file의 README에 첨부한다.  
+
+___
+
+#### 필기자료
+라즈베리파이1주차.pdf 파일은 제가 공부한 내용인데, 정확도는 떨어질 수 있으니 참고만해주세요!  
+잘못된 내용있다면 알려주시면 감사하겠습니다.
